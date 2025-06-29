@@ -62,8 +62,39 @@ export default {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-5px)' },
         }
+      },
+      backdropBlur: {
+        xs: '2px',
       }
     },
   },
   plugins: [],
+  safelist: [
+    'bg-purple-500',
+    'bg-blue-500', 
+    'bg-green-500',
+    'bg-red-500',
+    'bg-yellow-500',
+    'bg-pink-500',
+    'bg-cyan-500',
+    'bg-emerald-500',
+    'text-purple-500',
+    'text-blue-500',
+    'text-green-500',
+    'text-red-500',
+    'text-yellow-500',
+    'text-pink-500',
+    'from-purple-500',
+    'to-purple-600',
+    'from-blue-500',
+    'to-blue-600',
+    'from-green-500',
+    'to-green-600',
+    'from-pink-500',
+    'to-pink-600',
+    'from-cyan-500',
+    'to-cyan-600',
+    'from-emerald-500',
+    'to-emerald-600'
+  ]
 }
